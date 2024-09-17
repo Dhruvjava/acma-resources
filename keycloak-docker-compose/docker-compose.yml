@@ -7,10 +7,12 @@ services:
     ports:
       - 3308:3306
     environment:
-      - MYSQL_DATABASE=acma-iam-workforce-db
+      - MYSQL_DATABASE=acma-iam-workforce-kc-db
       - MYSQL_ROOT_PASSWORD=admin
     networks:
       - acma-iam-network
+    volumes:
+      - D:/Projects/acma-resources/keycloak-docker-compose/acma-workforce-db:/var/lib/mysql
 
   acma-iam-fed-service:
     container_name: acma-customer-ldap
@@ -38,7 +40,7 @@ services:
       - KEYCLOAK_ADMIN=admin
       - KEYCLOAK_ADMIN_PASSWORD=admin
       - KC_DB=mysql
-      - KC_DB_URL=jdbc:mysql://acma-iam-config-service/acma-iam-workforce-KC_DB
+      - KC_DB_URL=jdbc:mysql://acma-iam-config-service/acma-iam-workforce-kc-db
       - KC_DB_USERNAME=root
       - KC_DB_PASSWORD=admin
       - KC_HEALTH_ENABLED=true
@@ -57,5 +59,3 @@ services:
 networks:
   acma-iam-network:
     driver: bridge
-    
-         
