@@ -1,4 +1,4 @@
 Keycloak Service Account keys:
 
-Secre-key : Y8yuQZ8D6AFOpwUIr6nWRW2UjO6lExFT
-client-id: Statefarm-svc
+Secre-key : CBMajqkphHX0v5dIvIKpnZXb8Jlwy2yf
+client-id: stateform-svc
