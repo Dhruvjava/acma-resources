@@ -28,6 +28,8 @@ services:
       - ROOT_PASSWORD=acmaadmin
     networks:
       - acma-iam-network
+    volumes:
+      - D:/Projects/acma-resources/keycloak-docker-compose/acma-ldap-db:/opt/opendj/data
 
   acma-iam-keycloak-service:
     container_name: acma-iam-keycloak
