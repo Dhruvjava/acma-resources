@@ -12,7 +12,7 @@ services:
     networks:
       - acma-iam-network
     volumes:
-      - D:/Projects/acma-resources/keycloak-docker-compose/acma-workforce-db:/var/lib/mysql
+      - /Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/resource/acma-resources/keycloak-docker-compose/acma-workforce-db:/var/lib/mysql
 
   acma-iam-fed-service:
     container_name: acma-customer-ldap
@@ -29,7 +29,7 @@ services:
     networks:
       - acma-iam-network
     volumes:
-      - D:/Projects/acma-resources/keycloak-docker-compose/acma-ldap-db:/opt/opendj/data
+      - /Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/resource/acma-resources/keycloak-docker-compose/acma-ldap-db:/opt/opendj/data
 
   acma-iam-keycloak-service:
     container_name: acma-iam-keycloak
@@ -55,6 +55,18 @@ services:
     depends_on:
       - acma-iam-config-service
       - acma-iam-fed-service
+    networks:
+      - acma-iam-network
+  acma-user-mgmt-svc:
+    container_name: user-mgmt-svc
+    build: /Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/source-code/agent-customer-market-analyzer/acma-usermgmt-svc
+    ports:
+      - 5051:5051
+    environment:
+      - IAM_USERS_HOST=acma-iam-keycloak-service
+      - IAM_USERS_PORT=8081
+    depends_on:
+      - acma-iam-keycloak-service
     networks:
       - acma-iam-network
 
