@@ -15210,3 +15210,1041 @@
 [25/Oct/2024:09:42:57 +0000] SEARCH REQ conn=2 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
 [25/Oct/2024:09:42:57 +0000] SEARCH RES conn=2 op=1 msgID=2 result=0 nentries=1 etime=3
 [25/Oct/2024:09:42:57 +0000] DISCONNECT conn=2 reason="Client Disconnect"
+[25/Oct/2024:10:17:59 +0000] CONNECT conn=0 from=127.0.0.1:45604 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:17:59 +0000] BIND REQ conn=0 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:17:59 +0000] BIND RES conn=0 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=16
+[25/Oct/2024:10:17:59 +0000] SEARCH REQ conn=0 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:17:59 +0000] SEARCH RES conn=0 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:10:17:59 +0000] DISCONNECT conn=0 reason="Client Disconnect"
+[25/Oct/2024:10:18:30 +0000] CONNECT conn=1 from=127.0.0.1:33910 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:18:30 +0000] BIND REQ conn=1 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:18:30 +0000] BIND RES conn=1 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:10:18:30 +0000] SEARCH REQ conn=1 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:18:31 +0000] SEARCH RES conn=1 op=1 msgID=2 result=0 nentries=1 etime=13
+[25/Oct/2024:10:18:31 +0000] DISCONNECT conn=1 reason="Client Disconnect"
+[25/Oct/2024:10:19:02 +0000] CONNECT conn=2 from=127.0.0.1:46026 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:19:02 +0000] BIND REQ conn=2 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:19:02 +0000] BIND RES conn=2 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:19:02 +0000] SEARCH REQ conn=2 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:19:02 +0000] SEARCH RES conn=2 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:19:02 +0000] DISCONNECT conn=2 reason="Client Disconnect"
+[25/Oct/2024:10:19:33 +0000] CONNECT conn=3 from=127.0.0.1:46568 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:19:33 +0000] BIND REQ conn=3 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:19:33 +0000] BIND RES conn=3 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:10:19:33 +0000] SEARCH REQ conn=3 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:19:33 +0000] SEARCH RES conn=3 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:10:19:33 +0000] DISCONNECT conn=3 reason="Client Disconnect"
+[25/Oct/2024:10:20:04 +0000] CONNECT conn=4 from=127.0.0.1:34000 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:20:04 +0000] BIND REQ conn=4 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:20:04 +0000] BIND RES conn=4 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:10:20:04 +0000] SEARCH REQ conn=4 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:20:04 +0000] SEARCH RES conn=4 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:20:04 +0000] DISCONNECT conn=4 reason="Client Disconnect"
+[25/Oct/2024:10:20:36 +0000] CONNECT conn=5 from=127.0.0.1:37156 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:20:36 +0000] BIND REQ conn=5 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:20:36 +0000] BIND RES conn=5 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:20:36 +0000] SEARCH REQ conn=5 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:20:36 +0000] SEARCH RES conn=5 op=1 msgID=2 result=0 nentries=1 etime=12
+[25/Oct/2024:10:20:36 +0000] DISCONNECT conn=5 reason="Client Disconnect"
+[25/Oct/2024:10:21:08 +0000] CONNECT conn=6 from=127.0.0.1:41338 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:21:09 +0000] BIND REQ conn=6 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:21:09 +0000] BIND RES conn=6 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=8
+[25/Oct/2024:10:21:09 +0000] SEARCH REQ conn=6 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:21:09 +0000] SEARCH RES conn=6 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:10:21:09 +0000] DISCONNECT conn=6 reason="Client Disconnect"
+[25/Oct/2024:10:22:51 +0000] CONNECT conn=7 from=127.0.0.1:38412 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:22:51 +0000] BIND REQ conn=7 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:22:51 +0000] BIND RES conn=7 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:10:22:51 +0000] SEARCH REQ conn=7 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:22:51 +0000] SEARCH RES conn=7 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:10:22:51 +0000] DISCONNECT conn=7 reason="Client Disconnect"
+[25/Oct/2024:10:23:22 +0000] CONNECT conn=8 from=127.0.0.1:44052 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:23:23 +0000] BIND REQ conn=8 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:23:23 +0000] BIND RES conn=8 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:23:23 +0000] SEARCH REQ conn=8 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:23:23 +0000] SEARCH RES conn=8 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:10:23:23 +0000] DISCONNECT conn=8 reason="Client Disconnect"
+[25/Oct/2024:10:23:54 +0000] CONNECT conn=9 from=127.0.0.1:39614 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:23:54 +0000] BIND REQ conn=9 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:23:54 +0000] BIND RES conn=9 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:10:23:54 +0000] SEARCH REQ conn=9 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:23:54 +0000] SEARCH RES conn=9 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:10:23:54 +0000] DISCONNECT conn=9 reason="Client Disconnect"
+[25/Oct/2024:10:24:25 +0000] CONNECT conn=10 from=127.0.0.1:42902 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:24:25 +0000] BIND REQ conn=10 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:24:25 +0000] BIND RES conn=10 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:10:24:25 +0000] SEARCH REQ conn=10 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:24:25 +0000] SEARCH RES conn=10 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:24:25 +0000] DISCONNECT conn=10 reason="Client Disconnect"
+[25/Oct/2024:10:24:56 +0000] CONNECT conn=11 from=127.0.0.1:53182 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:24:57 +0000] BIND REQ conn=11 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:24:57 +0000] BIND RES conn=11 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:24:57 +0000] SEARCH REQ conn=11 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:24:57 +0000] SEARCH RES conn=11 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:24:57 +0000] DISCONNECT conn=11 reason="Client Disconnect"
+[25/Oct/2024:10:25:28 +0000] CONNECT conn=12 from=127.0.0.1:34336 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:25:28 +0000] BIND REQ conn=12 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:25:28 +0000] BIND RES conn=12 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:10:25:28 +0000] SEARCH REQ conn=12 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:25:28 +0000] SEARCH RES conn=12 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:10:25:28 +0000] DISCONNECT conn=12 reason="Client Disconnect"
+[25/Oct/2024:10:25:59 +0000] CONNECT conn=13 from=127.0.0.1:42324 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:25:59 +0000] BIND REQ conn=13 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:25:59 +0000] BIND RES conn=13 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:25:59 +0000] SEARCH REQ conn=13 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:25:59 +0000] SEARCH RES conn=13 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:10:25:59 +0000] DISCONNECT conn=13 reason="Client Disconnect"
+[25/Oct/2024:10:26:30 +0000] CONNECT conn=14 from=127.0.0.1:50722 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:26:30 +0000] BIND REQ conn=14 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:26:30 +0000] BIND RES conn=14 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:26:30 +0000] SEARCH REQ conn=14 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:26:30 +0000] SEARCH RES conn=14 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:10:26:30 +0000] DISCONNECT conn=14 reason="Client Disconnect"
+[25/Oct/2024:10:27:02 +0000] CONNECT conn=15 from=127.0.0.1:42308 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:27:02 +0000] BIND REQ conn=15 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:27:02 +0000] BIND RES conn=15 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:10:27:02 +0000] SEARCH REQ conn=15 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:27:02 +0000] SEARCH RES conn=15 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:27:02 +0000] DISCONNECT conn=15 reason="Client Disconnect"
+[25/Oct/2024:10:27:33 +0000] CONNECT conn=16 from=127.0.0.1:53966 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:27:33 +0000] BIND REQ conn=16 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:27:33 +0000] BIND RES conn=16 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:27:33 +0000] SEARCH REQ conn=16 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:27:33 +0000] SEARCH RES conn=16 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:10:27:33 +0000] DISCONNECT conn=16 reason="Client Disconnect"
+[25/Oct/2024:10:28:04 +0000] CONNECT conn=17 from=127.0.0.1:48436 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:28:05 +0000] BIND REQ conn=17 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:28:05 +0000] BIND RES conn=17 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=17
+[25/Oct/2024:10:28:05 +0000] SEARCH REQ conn=17 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:28:05 +0000] SEARCH RES conn=17 op=1 msgID=2 result=0 nentries=1 etime=8
+[25/Oct/2024:10:28:05 +0000] DISCONNECT conn=17 reason="Client Disconnect"
+[25/Oct/2024:10:28:36 +0000] CONNECT conn=18 from=127.0.0.1:58612 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:28:36 +0000] BIND REQ conn=18 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:28:36 +0000] BIND RES conn=18 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:10:28:36 +0000] SEARCH REQ conn=18 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:28:36 +0000] SEARCH RES conn=18 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:10:28:36 +0000] DISCONNECT conn=18 reason="Client Disconnect"
+[25/Oct/2024:10:29:08 +0000] CONNECT conn=19 from=127.0.0.1:41206 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:29:08 +0000] BIND REQ conn=19 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:29:08 +0000] BIND RES conn=19 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:10:29:08 +0000] SEARCH REQ conn=19 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:29:08 +0000] SEARCH RES conn=19 op=1 msgID=2 result=0 nentries=1 etime=10
+[25/Oct/2024:10:29:08 +0000] DISCONNECT conn=19 reason="Client Disconnect"
+[25/Oct/2024:10:29:39 +0000] CONNECT conn=20 from=127.0.0.1:41900 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:29:40 +0000] BIND REQ conn=20 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:29:40 +0000] BIND RES conn=20 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:10:29:40 +0000] SEARCH REQ conn=20 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:29:40 +0000] SEARCH RES conn=20 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:10:29:40 +0000] DISCONNECT conn=20 reason="Client Disconnect"
+[25/Oct/2024:10:30:11 +0000] CONNECT conn=21 from=127.0.0.1:59390 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:30:11 +0000] BIND REQ conn=21 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:30:11 +0000] BIND RES conn=21 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:30:11 +0000] SEARCH REQ conn=21 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:30:11 +0000] SEARCH RES conn=21 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:10:30:11 +0000] DISCONNECT conn=21 reason="Client Disconnect"
+[25/Oct/2024:10:30:43 +0000] CONNECT conn=22 from=127.0.0.1:35176 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:30:43 +0000] BIND REQ conn=22 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:30:43 +0000] BIND RES conn=22 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:30:43 +0000] SEARCH REQ conn=22 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:30:43 +0000] SEARCH RES conn=22 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:10:30:43 +0000] DISCONNECT conn=22 reason="Client Disconnect"
+[25/Oct/2024:10:31:14 +0000] CONNECT conn=23 from=127.0.0.1:50470 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:31:14 +0000] BIND REQ conn=23 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:31:14 +0000] BIND RES conn=23 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:31:14 +0000] SEARCH REQ conn=23 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:31:14 +0000] SEARCH RES conn=23 op=1 msgID=2 result=0 nentries=1 etime=7
+[25/Oct/2024:10:31:14 +0000] DISCONNECT conn=23 reason="Client Disconnect"
+[25/Oct/2024:10:31:45 +0000] CONNECT conn=24 from=127.0.0.1:36090 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:31:46 +0000] BIND REQ conn=24 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:31:46 +0000] BIND RES conn=24 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:31:46 +0000] SEARCH REQ conn=24 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:31:46 +0000] SEARCH RES conn=24 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:10:31:46 +0000] DISCONNECT conn=24 reason="Client Disconnect"
+[25/Oct/2024:10:32:17 +0000] CONNECT conn=25 from=127.0.0.1:36904 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:32:17 +0000] BIND REQ conn=25 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:32:17 +0000] BIND RES conn=25 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:32:17 +0000] SEARCH REQ conn=25 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:32:17 +0000] SEARCH RES conn=25 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:32:17 +0000] DISCONNECT conn=25 reason="Client Disconnect"
+[25/Oct/2024:10:32:48 +0000] CONNECT conn=26 from=127.0.0.1:33660 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:32:49 +0000] BIND REQ conn=26 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:32:49 +0000] BIND RES conn=26 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=7
+[25/Oct/2024:10:32:49 +0000] SEARCH REQ conn=26 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:32:49 +0000] SEARCH RES conn=26 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:32:49 +0000] DISCONNECT conn=26 reason="Client Disconnect"
+[25/Oct/2024:10:33:20 +0000] CONNECT conn=27 from=127.0.0.1:37554 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:33:20 +0000] BIND REQ conn=27 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:33:20 +0000] BIND RES conn=27 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:10:33:20 +0000] SEARCH REQ conn=27 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:33:20 +0000] SEARCH RES conn=27 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:10:33:20 +0000] DISCONNECT conn=27 reason="Client Disconnect"
+[25/Oct/2024:10:33:51 +0000] CONNECT conn=28 from=127.0.0.1:36626 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:33:51 +0000] BIND REQ conn=28 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:33:51 +0000] BIND RES conn=28 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:33:51 +0000] SEARCH REQ conn=28 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:33:51 +0000] SEARCH RES conn=28 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:33:51 +0000] DISCONNECT conn=28 reason="Client Disconnect"
+[25/Oct/2024:10:34:23 +0000] CONNECT conn=29 from=127.0.0.1:56538 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:34:24 +0000] BIND REQ conn=29 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:34:24 +0000] BIND RES conn=29 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=12
+[25/Oct/2024:10:34:24 +0000] SEARCH REQ conn=29 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:34:24 +0000] SEARCH RES conn=29 op=1 msgID=2 result=0 nentries=1 etime=19
+[25/Oct/2024:10:34:24 +0000] DISCONNECT conn=29 reason="Client Disconnect"
+[25/Oct/2024:10:34:55 +0000] CONNECT conn=30 from=127.0.0.1:45018 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:34:55 +0000] BIND REQ conn=30 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:34:55 +0000] BIND RES conn=30 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:34:55 +0000] SEARCH REQ conn=30 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:34:55 +0000] SEARCH RES conn=30 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:10:34:55 +0000] DISCONNECT conn=30 reason="Client Disconnect"
+[25/Oct/2024:10:35:26 +0000] CONNECT conn=31 from=127.0.0.1:52774 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:35:26 +0000] BIND REQ conn=31 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:35:26 +0000] BIND RES conn=31 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=8
+[25/Oct/2024:10:35:26 +0000] SEARCH REQ conn=31 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:35:26 +0000] SEARCH RES conn=31 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:10:35:26 +0000] DISCONNECT conn=31 reason="Client Disconnect"
+[25/Oct/2024:10:35:57 +0000] CONNECT conn=32 from=127.0.0.1:48648 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:35:57 +0000] BIND REQ conn=32 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:35:57 +0000] BIND RES conn=32 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:35:57 +0000] SEARCH REQ conn=32 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:35:57 +0000] SEARCH RES conn=32 op=1 msgID=2 result=0 nentries=1 etime=8
+[25/Oct/2024:10:35:57 +0000] DISCONNECT conn=32 reason="Client Disconnect"
+[25/Oct/2024:10:36:29 +0000] CONNECT conn=33 from=127.0.0.1:35092 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:36:29 +0000] BIND REQ conn=33 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:36:29 +0000] BIND RES conn=33 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:36:29 +0000] SEARCH REQ conn=33 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:36:29 +0000] SEARCH RES conn=33 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:10:36:29 +0000] DISCONNECT conn=33 reason="Client Disconnect"
+[25/Oct/2024:10:37:00 +0000] CONNECT conn=34 from=127.0.0.1:53166 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:37:00 +0000] BIND REQ conn=34 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:37:00 +0000] BIND RES conn=34 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:37:00 +0000] SEARCH REQ conn=34 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:37:00 +0000] SEARCH RES conn=34 op=1 msgID=2 result=0 nentries=1 etime=8
+[25/Oct/2024:10:37:00 +0000] DISCONNECT conn=34 reason="Client Disconnect"
+[25/Oct/2024:10:37:32 +0000] CONNECT conn=35 from=127.0.0.1:44208 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:37:32 +0000] BIND REQ conn=35 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:37:32 +0000] BIND RES conn=35 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:37:32 +0000] SEARCH REQ conn=35 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:37:32 +0000] SEARCH RES conn=35 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:10:37:32 +0000] DISCONNECT conn=35 reason="Client Disconnect"
+[25/Oct/2024:10:38:03 +0000] CONNECT conn=36 from=127.0.0.1:39472 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:38:03 +0000] BIND REQ conn=36 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:38:03 +0000] BIND RES conn=36 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:10:38:03 +0000] SEARCH REQ conn=36 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:38:03 +0000] SEARCH RES conn=36 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:38:03 +0000] DISCONNECT conn=36 reason="Client Disconnect"
+[25/Oct/2024:10:38:36 +0000] CONNECT conn=37 from=127.0.0.1:52842 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:38:36 +0000] BIND REQ conn=37 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:38:36 +0000] BIND RES conn=37 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:38:36 +0000] SEARCH REQ conn=37 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:38:36 +0000] SEARCH RES conn=37 op=1 msgID=2 result=0 nentries=1 etime=10
+[25/Oct/2024:10:38:36 +0000] DISCONNECT conn=37 reason="Client Disconnect"
+[25/Oct/2024:10:39:08 +0000] CONNECT conn=38 from=127.0.0.1:45806 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:39:08 +0000] BIND REQ conn=38 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:39:08 +0000] BIND RES conn=38 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:10:39:08 +0000] SEARCH REQ conn=38 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:39:08 +0000] SEARCH RES conn=38 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:10:39:08 +0000] DISCONNECT conn=38 reason="Client Disconnect"
+[25/Oct/2024:10:39:39 +0000] CONNECT conn=39 from=127.0.0.1:38978 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:39:39 +0000] BIND REQ conn=39 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:39:39 +0000] BIND RES conn=39 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:39:39 +0000] SEARCH REQ conn=39 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:39:39 +0000] SEARCH RES conn=39 op=1 msgID=2 result=0 nentries=1 etime=8
+[25/Oct/2024:10:39:39 +0000] DISCONNECT conn=39 reason="Client Disconnect"
+[25/Oct/2024:10:40:11 +0000] CONNECT conn=40 from=127.0.0.1:40928 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:40:11 +0000] BIND REQ conn=40 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:40:11 +0000] BIND RES conn=40 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:40:11 +0000] SEARCH REQ conn=40 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:40:11 +0000] SEARCH RES conn=40 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:40:11 +0000] DISCONNECT conn=40 reason="Client Disconnect"
+[25/Oct/2024:10:40:42 +0000] CONNECT conn=41 from=127.0.0.1:53494 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:40:42 +0000] BIND REQ conn=41 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:40:42 +0000] BIND RES conn=41 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:40:42 +0000] SEARCH REQ conn=41 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:40:42 +0000] SEARCH RES conn=41 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:40:42 +0000] DISCONNECT conn=41 reason="Client Disconnect"
+[25/Oct/2024:10:41:13 +0000] CONNECT conn=42 from=127.0.0.1:47024 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:41:14 +0000] BIND REQ conn=42 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:41:14 +0000] BIND RES conn=42 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:10:41:14 +0000] SEARCH REQ conn=42 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:41:14 +0000] SEARCH RES conn=42 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:41:14 +0000] DISCONNECT conn=42 reason="Client Disconnect"
+[25/Oct/2024:10:41:45 +0000] CONNECT conn=43 from=127.0.0.1:32916 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:41:45 +0000] BIND REQ conn=43 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:41:45 +0000] BIND RES conn=43 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=7
+[25/Oct/2024:10:41:45 +0000] SEARCH REQ conn=43 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:41:45 +0000] SEARCH RES conn=43 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:41:45 +0000] DISCONNECT conn=43 reason="Client Disconnect"
+[25/Oct/2024:10:42:16 +0000] CONNECT conn=44 from=127.0.0.1:42586 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:42:16 +0000] BIND REQ conn=44 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:42:16 +0000] BIND RES conn=44 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=10
+[25/Oct/2024:10:42:16 +0000] SEARCH REQ conn=44 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:42:16 +0000] SEARCH RES conn=44 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:42:16 +0000] DISCONNECT conn=44 reason="Client Disconnect"
+[25/Oct/2024:10:42:48 +0000] CONNECT conn=45 from=127.0.0.1:55876 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:42:48 +0000] BIND REQ conn=45 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:42:48 +0000] BIND RES conn=45 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:10:42:48 +0000] SEARCH REQ conn=45 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:42:48 +0000] SEARCH RES conn=45 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:42:48 +0000] DISCONNECT conn=45 reason="Client Disconnect"
+[25/Oct/2024:10:43:19 +0000] CONNECT conn=46 from=127.0.0.1:34624 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:43:20 +0000] BIND REQ conn=46 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:43:20 +0000] BIND RES conn=46 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:10:43:20 +0000] SEARCH REQ conn=46 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:43:20 +0000] SEARCH RES conn=46 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:10:43:20 +0000] DISCONNECT conn=46 reason="Client Disconnect"
+[25/Oct/2024:10:43:52 +0000] CONNECT conn=47 from=127.0.0.1:54710 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:43:52 +0000] BIND REQ conn=47 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:43:52 +0000] BIND RES conn=47 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=15
+[25/Oct/2024:10:43:52 +0000] SEARCH REQ conn=47 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:43:52 +0000] SEARCH RES conn=47 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:10:43:52 +0000] DISCONNECT conn=47 reason="Client Disconnect"
+[25/Oct/2024:10:44:24 +0000] CONNECT conn=48 from=127.0.0.1:57688 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:44:24 +0000] BIND REQ conn=48 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:44:24 +0000] BIND RES conn=48 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:44:24 +0000] SEARCH REQ conn=48 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:44:24 +0000] SEARCH RES conn=48 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:10:44:24 +0000] DISCONNECT conn=48 reason="Client Disconnect"
+[25/Oct/2024:10:44:55 +0000] CONNECT conn=49 from=127.0.0.1:39310 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:44:56 +0000] BIND REQ conn=49 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:44:56 +0000] BIND RES conn=49 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:10:44:56 +0000] SEARCH REQ conn=49 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:44:56 +0000] SEARCH RES conn=49 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:44:56 +0000] DISCONNECT conn=49 reason="Client Disconnect"
+[25/Oct/2024:10:45:27 +0000] CONNECT conn=50 from=127.0.0.1:40806 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:45:27 +0000] BIND REQ conn=50 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:45:27 +0000] BIND RES conn=50 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:45:27 +0000] SEARCH REQ conn=50 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:45:27 +0000] SEARCH RES conn=50 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:10:45:27 +0000] DISCONNECT conn=50 reason="Client Disconnect"
+[25/Oct/2024:10:45:58 +0000] CONNECT conn=51 from=127.0.0.1:58404 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:45:58 +0000] BIND REQ conn=51 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:45:58 +0000] BIND RES conn=51 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:45:58 +0000] SEARCH REQ conn=51 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:45:58 +0000] SEARCH RES conn=51 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:45:58 +0000] DISCONNECT conn=51 reason="Client Disconnect"
+[25/Oct/2024:10:46:30 +0000] CONNECT conn=52 from=127.0.0.1:45372 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:46:30 +0000] BIND REQ conn=52 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:46:30 +0000] BIND RES conn=52 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:10:46:30 +0000] SEARCH REQ conn=52 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:46:30 +0000] SEARCH RES conn=52 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:10:46:30 +0000] DISCONNECT conn=52 reason="Client Disconnect"
+[25/Oct/2024:10:47:02 +0000] CONNECT conn=53 from=127.0.0.1:35656 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:47:02 +0000] BIND REQ conn=53 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:47:02 +0000] BIND RES conn=53 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:10:47:02 +0000] SEARCH REQ conn=53 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:47:02 +0000] SEARCH RES conn=53 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:10:47:02 +0000] DISCONNECT conn=53 reason="Client Disconnect"
+[25/Oct/2024:10:47:33 +0000] CONNECT conn=54 from=127.0.0.1:35218 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:47:33 +0000] BIND REQ conn=54 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:47:33 +0000] BIND RES conn=54 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:47:33 +0000] SEARCH REQ conn=54 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:47:33 +0000] SEARCH RES conn=54 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:47:33 +0000] DISCONNECT conn=54 reason="Client Disconnect"
+[25/Oct/2024:10:48:05 +0000] CONNECT conn=55 from=127.0.0.1:33430 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:48:06 +0000] BIND REQ conn=55 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:48:06 +0000] BIND RES conn=55 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=9
+[25/Oct/2024:10:48:06 +0000] SEARCH REQ conn=55 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:48:06 +0000] SEARCH RES conn=55 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:10:48:06 +0000] DISCONNECT conn=55 reason="Client Disconnect"
+[25/Oct/2024:10:48:37 +0000] CONNECT conn=56 from=127.0.0.1:55416 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:48:37 +0000] BIND REQ conn=56 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:48:37 +0000] BIND RES conn=56 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:10:48:37 +0000] SEARCH REQ conn=56 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:48:37 +0000] SEARCH RES conn=56 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:10:48:37 +0000] DISCONNECT conn=56 reason="Client Disconnect"
+[25/Oct/2024:10:49:09 +0000] CONNECT conn=57 from=127.0.0.1:43216 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:49:09 +0000] BIND REQ conn=57 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:49:09 +0000] BIND RES conn=57 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=7
+[25/Oct/2024:10:49:09 +0000] SEARCH REQ conn=57 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:49:09 +0000] SEARCH RES conn=57 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:10:49:09 +0000] DISCONNECT conn=57 reason="Client Disconnect"
+[25/Oct/2024:10:49:40 +0000] CONNECT conn=58 from=127.0.0.1:44308 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:49:40 +0000] BIND REQ conn=58 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:49:40 +0000] BIND RES conn=58 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:10:49:40 +0000] SEARCH REQ conn=58 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:49:40 +0000] SEARCH RES conn=58 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:10:49:40 +0000] DISCONNECT conn=58 reason="Client Disconnect"
+[25/Oct/2024:10:50:12 +0000] CONNECT conn=59 from=127.0.0.1:35566 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:50:12 +0000] BIND REQ conn=59 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:50:12 +0000] BIND RES conn=59 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:10:50:12 +0000] SEARCH REQ conn=59 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:50:12 +0000] SEARCH RES conn=59 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:10:50:12 +0000] DISCONNECT conn=59 reason="Client Disconnect"
+[25/Oct/2024:10:50:43 +0000] CONNECT conn=60 from=127.0.0.1:36478 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:10:50:43 +0000] BIND REQ conn=60 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:10:50:43 +0000] BIND RES conn=60 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=7
+[25/Oct/2024:10:50:43 +0000] SEARCH REQ conn=60 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:10:50:43 +0000] SEARCH RES conn=60 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:10:50:43 +0000] DISCONNECT conn=60 reason="Client Disconnect"
+[25/Oct/2024:11:06:53 +0000] CONNECT conn=61 from=127.0.0.1:58992 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:06:54 +0000] BIND REQ conn=61 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:06:54 +0000] BIND RES conn=61 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:06:54 +0000] SEARCH REQ conn=61 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:06:54 +0000] SEARCH RES conn=61 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:06:54 +0000] DISCONNECT conn=61 reason="Client Disconnect"
+[25/Oct/2024:11:28:00 +0000] CONNECT conn=62 from=127.0.0.1:39724 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:28:00 +0000] BIND REQ conn=62 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:28:00 +0000] BIND RES conn=62 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:28:00 +0000] SEARCH REQ conn=62 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:28:00 +0000] SEARCH RES conn=62 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:28:00 +0000] DISCONNECT conn=62 reason="Client Disconnect"
+[25/Oct/2024:11:28:31 +0000] CONNECT conn=63 from=127.0.0.1:60190 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:28:31 +0000] BIND REQ conn=63 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:28:31 +0000] BIND RES conn=63 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:28:31 +0000] SEARCH REQ conn=63 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:28:32 +0000] SEARCH RES conn=63 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:28:32 +0000] DISCONNECT conn=63 reason="Client Disconnect"
+[25/Oct/2024:11:29:03 +0000] CONNECT conn=64 from=127.0.0.1:34504 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:29:03 +0000] BIND REQ conn=64 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:29:03 +0000] BIND RES conn=64 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:29:03 +0000] SEARCH REQ conn=64 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:29:03 +0000] SEARCH RES conn=64 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:29:03 +0000] DISCONNECT conn=64 reason="Client Disconnect"
+[25/Oct/2024:11:29:34 +0000] CONNECT conn=65 from=127.0.0.1:48230 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:29:34 +0000] BIND REQ conn=65 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:29:34 +0000] BIND RES conn=65 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=10
+[25/Oct/2024:11:29:34 +0000] SEARCH REQ conn=65 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:29:34 +0000] SEARCH RES conn=65 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:29:34 +0000] DISCONNECT conn=65 reason="Client Disconnect"
+[25/Oct/2024:11:30:06 +0000] CONNECT conn=66 from=127.0.0.1:36300 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:30:06 +0000] BIND REQ conn=66 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:30:06 +0000] BIND RES conn=66 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:30:06 +0000] SEARCH REQ conn=66 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:30:06 +0000] SEARCH RES conn=66 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:30:06 +0000] DISCONNECT conn=66 reason="Client Disconnect"
+[25/Oct/2024:11:30:37 +0000] CONNECT conn=67 from=127.0.0.1:57136 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:30:37 +0000] BIND REQ conn=67 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:30:37 +0000] BIND RES conn=67 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:30:37 +0000] SEARCH REQ conn=67 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:30:37 +0000] SEARCH RES conn=67 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:11:30:37 +0000] DISCONNECT conn=67 reason="Client Disconnect"
+[25/Oct/2024:11:31:09 +0000] CONNECT conn=68 from=127.0.0.1:47190 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:31:09 +0000] BIND REQ conn=68 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:31:09 +0000] BIND RES conn=68 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:31:09 +0000] SEARCH REQ conn=68 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:31:09 +0000] SEARCH RES conn=68 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:31:09 +0000] DISCONNECT conn=68 reason="Client Disconnect"
+[25/Oct/2024:11:31:40 +0000] CONNECT conn=69 from=127.0.0.1:40526 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:31:40 +0000] BIND REQ conn=69 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:31:40 +0000] BIND RES conn=69 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:11:31:40 +0000] SEARCH REQ conn=69 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:31:40 +0000] SEARCH RES conn=69 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:31:40 +0000] DISCONNECT conn=69 reason="Client Disconnect"
+[25/Oct/2024:11:32:11 +0000] CONNECT conn=70 from=127.0.0.1:60320 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:32:11 +0000] BIND REQ conn=70 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:32:11 +0000] BIND RES conn=70 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:11:32:11 +0000] SEARCH REQ conn=70 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:32:11 +0000] SEARCH RES conn=70 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:32:11 +0000] DISCONNECT conn=70 reason="Client Disconnect"
+[25/Oct/2024:11:32:43 +0000] CONNECT conn=71 from=127.0.0.1:34082 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:32:43 +0000] BIND REQ conn=71 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:32:43 +0000] BIND RES conn=71 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=9
+[25/Oct/2024:11:32:43 +0000] SEARCH REQ conn=71 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:32:43 +0000] SEARCH RES conn=71 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:32:43 +0000] DISCONNECT conn=71 reason="Client Disconnect"
+[25/Oct/2024:11:33:14 +0000] CONNECT conn=72 from=127.0.0.1:44868 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:33:14 +0000] BIND REQ conn=72 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:33:14 +0000] BIND RES conn=72 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:33:14 +0000] SEARCH REQ conn=72 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:33:14 +0000] SEARCH RES conn=72 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:33:14 +0000] DISCONNECT conn=72 reason="Client Disconnect"
+[25/Oct/2024:11:33:45 +0000] CONNECT conn=73 from=127.0.0.1:46364 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:33:45 +0000] BIND REQ conn=73 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:33:45 +0000] BIND RES conn=73 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:33:45 +0000] SEARCH REQ conn=73 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:33:45 +0000] SEARCH RES conn=73 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:33:45 +0000] DISCONNECT conn=73 reason="Client Disconnect"
+[25/Oct/2024:11:34:16 +0000] CONNECT conn=74 from=127.0.0.1:51570 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:34:16 +0000] BIND REQ conn=74 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:34:16 +0000] BIND RES conn=74 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:34:16 +0000] SEARCH REQ conn=74 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:34:16 +0000] SEARCH RES conn=74 op=1 msgID=2 result=0 nentries=1 etime=7
+[25/Oct/2024:11:34:16 +0000] DISCONNECT conn=74 reason="Client Disconnect"
+[25/Oct/2024:11:34:48 +0000] CONNECT conn=75 from=127.0.0.1:51844 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:34:48 +0000] BIND REQ conn=75 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:34:48 +0000] BIND RES conn=75 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=8
+[25/Oct/2024:11:34:48 +0000] SEARCH REQ conn=75 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:34:48 +0000] SEARCH RES conn=75 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:11:34:48 +0000] DISCONNECT conn=75 reason="Client Disconnect"
+[25/Oct/2024:11:35:19 +0000] CONNECT conn=76 from=127.0.0.1:54222 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:35:19 +0000] BIND REQ conn=76 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:35:19 +0000] BIND RES conn=76 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:35:19 +0000] SEARCH REQ conn=76 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:35:19 +0000] SEARCH RES conn=76 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:35:19 +0000] DISCONNECT conn=76 reason="Client Disconnect"
+[25/Oct/2024:11:35:51 +0000] CONNECT conn=77 from=127.0.0.1:59930 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:35:51 +0000] BIND REQ conn=77 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:35:51 +0000] BIND RES conn=77 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=10
+[25/Oct/2024:11:35:51 +0000] SEARCH REQ conn=77 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:35:51 +0000] SEARCH RES conn=77 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:11:35:51 +0000] DISCONNECT conn=77 reason="Client Disconnect"
+[25/Oct/2024:11:36:23 +0000] CONNECT conn=78 from=127.0.0.1:41982 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:36:23 +0000] BIND REQ conn=78 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:36:23 +0000] BIND RES conn=78 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:11:36:23 +0000] SEARCH REQ conn=78 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:36:23 +0000] SEARCH RES conn=78 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:11:36:23 +0000] DISCONNECT conn=78 reason="Client Disconnect"
+[25/Oct/2024:11:36:55 +0000] CONNECT conn=79 from=127.0.0.1:38382 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:36:55 +0000] BIND REQ conn=79 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:36:55 +0000] BIND RES conn=79 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:36:55 +0000] SEARCH REQ conn=79 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:36:55 +0000] SEARCH RES conn=79 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:36:55 +0000] DISCONNECT conn=79 reason="Client Disconnect"
+[25/Oct/2024:11:37:26 +0000] CONNECT conn=80 from=127.0.0.1:52462 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:37:26 +0000] BIND REQ conn=80 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:37:26 +0000] BIND RES conn=80 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=9
+[25/Oct/2024:11:37:26 +0000] SEARCH REQ conn=80 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:37:26 +0000] SEARCH RES conn=80 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:37:26 +0000] DISCONNECT conn=80 reason="Client Disconnect"
+[25/Oct/2024:11:37:57 +0000] CONNECT conn=81 from=127.0.0.1:55744 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:37:58 +0000] BIND REQ conn=81 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:37:58 +0000] BIND RES conn=81 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=8
+[25/Oct/2024:11:37:58 +0000] SEARCH REQ conn=81 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:37:58 +0000] SEARCH RES conn=81 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:11:37:58 +0000] DISCONNECT conn=81 reason="Client Disconnect"
+[25/Oct/2024:11:38:29 +0000] CONNECT conn=82 from=127.0.0.1:49718 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:38:29 +0000] BIND REQ conn=82 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:38:29 +0000] BIND RES conn=82 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:38:29 +0000] SEARCH REQ conn=82 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:38:29 +0000] SEARCH RES conn=82 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:38:29 +0000] DISCONNECT conn=82 reason="Client Disconnect"
+[25/Oct/2024:11:39:00 +0000] CONNECT conn=83 from=127.0.0.1:55730 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:39:01 +0000] BIND REQ conn=83 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:39:01 +0000] BIND RES conn=83 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:39:01 +0000] SEARCH REQ conn=83 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:39:01 +0000] SEARCH RES conn=83 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:11:39:01 +0000] DISCONNECT conn=83 reason="Client Disconnect"
+[25/Oct/2024:11:39:32 +0000] CONNECT conn=84 from=127.0.0.1:45668 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:39:32 +0000] BIND REQ conn=84 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:39:32 +0000] BIND RES conn=84 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:39:32 +0000] SEARCH REQ conn=84 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:39:32 +0000] SEARCH RES conn=84 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:39:32 +0000] DISCONNECT conn=84 reason="Client Disconnect"
+[25/Oct/2024:11:40:03 +0000] CONNECT conn=85 from=127.0.0.1:54292 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:40:03 +0000] BIND REQ conn=85 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:40:03 +0000] BIND RES conn=85 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:40:03 +0000] SEARCH REQ conn=85 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:40:03 +0000] SEARCH RES conn=85 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:40:03 +0000] DISCONNECT conn=85 reason="Client Disconnect"
+[25/Oct/2024:11:40:35 +0000] CONNECT conn=86 from=127.0.0.1:41208 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:40:35 +0000] BIND REQ conn=86 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:40:35 +0000] BIND RES conn=86 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:40:35 +0000] SEARCH REQ conn=86 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:40:35 +0000] SEARCH RES conn=86 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:40:35 +0000] DISCONNECT conn=86 reason="Client Disconnect"
+[25/Oct/2024:11:41:06 +0000] CONNECT conn=87 from=127.0.0.1:41296 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:41:06 +0000] BIND REQ conn=87 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:41:06 +0000] BIND RES conn=87 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:41:07 +0000] SEARCH REQ conn=87 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:41:07 +0000] SEARCH RES conn=87 op=1 msgID=2 result=0 nentries=1 etime=24
+[25/Oct/2024:11:41:07 +0000] DISCONNECT conn=87 reason="Client Disconnect"
+[25/Oct/2024:11:41:38 +0000] CONNECT conn=88 from=127.0.0.1:39846 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:41:38 +0000] BIND REQ conn=88 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:41:38 +0000] BIND RES conn=88 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:41:38 +0000] SEARCH REQ conn=88 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:41:38 +0000] SEARCH RES conn=88 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:41:38 +0000] DISCONNECT conn=88 reason="Client Disconnect"
+[25/Oct/2024:11:42:09 +0000] CONNECT conn=89 from=127.0.0.1:33670 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:42:09 +0000] BIND REQ conn=89 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:42:09 +0000] BIND RES conn=89 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:42:09 +0000] SEARCH REQ conn=89 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:42:09 +0000] SEARCH RES conn=89 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:42:09 +0000] DISCONNECT conn=89 reason="Client Disconnect"
+[25/Oct/2024:11:42:41 +0000] CONNECT conn=90 from=127.0.0.1:43528 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:42:41 +0000] BIND REQ conn=90 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:42:41 +0000] BIND RES conn=90 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:11:42:41 +0000] SEARCH REQ conn=90 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:42:41 +0000] SEARCH RES conn=90 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:11:42:41 +0000] DISCONNECT conn=90 reason="Client Disconnect"
+[25/Oct/2024:11:43:13 +0000] CONNECT conn=91 from=127.0.0.1:41152 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:43:13 +0000] BIND REQ conn=91 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:43:13 +0000] BIND RES conn=91 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=16
+[25/Oct/2024:11:43:13 +0000] SEARCH REQ conn=91 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:43:13 +0000] SEARCH RES conn=91 op=1 msgID=2 result=0 nentries=1 etime=10
+[25/Oct/2024:11:43:13 +0000] DISCONNECT conn=91 reason="Client Disconnect"
+[25/Oct/2024:11:43:45 +0000] CONNECT conn=92 from=127.0.0.1:60400 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:43:45 +0000] BIND REQ conn=92 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:43:45 +0000] BIND RES conn=92 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:43:45 +0000] SEARCH REQ conn=92 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:43:45 +0000] SEARCH RES conn=92 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:11:43:45 +0000] DISCONNECT conn=92 reason="Client Disconnect"
+[25/Oct/2024:11:44:16 +0000] CONNECT conn=93 from=127.0.0.1:56524 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:44:16 +0000] BIND REQ conn=93 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:44:16 +0000] BIND RES conn=93 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:11:44:16 +0000] SEARCH REQ conn=93 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:44:16 +0000] SEARCH RES conn=93 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:44:16 +0000] DISCONNECT conn=93 reason="Client Disconnect"
+[25/Oct/2024:11:44:48 +0000] CONNECT conn=94 from=127.0.0.1:41050 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:44:48 +0000] BIND REQ conn=94 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:44:48 +0000] BIND RES conn=94 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=9
+[25/Oct/2024:11:44:48 +0000] SEARCH REQ conn=94 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:44:48 +0000] SEARCH RES conn=94 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:11:44:48 +0000] DISCONNECT conn=94 reason="Client Disconnect"
+[25/Oct/2024:11:45:19 +0000] CONNECT conn=95 from=127.0.0.1:34752 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:45:19 +0000] BIND REQ conn=95 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:45:19 +0000] BIND RES conn=95 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:11:45:19 +0000] SEARCH REQ conn=95 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:45:19 +0000] SEARCH RES conn=95 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:45:19 +0000] DISCONNECT conn=95 reason="Client Disconnect"
+[25/Oct/2024:11:45:51 +0000] CONNECT conn=96 from=127.0.0.1:47848 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:45:51 +0000] BIND REQ conn=96 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:45:51 +0000] BIND RES conn=96 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:45:51 +0000] SEARCH REQ conn=96 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:45:51 +0000] SEARCH RES conn=96 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:45:51 +0000] DISCONNECT conn=96 reason="Client Disconnect"
+[25/Oct/2024:11:46:22 +0000] CONNECT conn=97 from=127.0.0.1:55092 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:46:22 +0000] BIND REQ conn=97 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:46:22 +0000] BIND RES conn=97 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:46:22 +0000] SEARCH REQ conn=97 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:46:22 +0000] SEARCH RES conn=97 op=1 msgID=2 result=0 nentries=1 etime=7
+[25/Oct/2024:11:46:22 +0000] DISCONNECT conn=97 reason="Client Disconnect"
+[25/Oct/2024:11:46:54 +0000] CONNECT conn=98 from=127.0.0.1:48502 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:46:54 +0000] BIND REQ conn=98 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:46:54 +0000] BIND RES conn=98 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:46:54 +0000] SEARCH REQ conn=98 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:46:54 +0000] SEARCH RES conn=98 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:11:46:54 +0000] DISCONNECT conn=98 reason="Client Disconnect"
+[25/Oct/2024:11:47:26 +0000] CONNECT conn=99 from=127.0.0.1:46886 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:47:26 +0000] BIND REQ conn=99 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:47:26 +0000] BIND RES conn=99 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=9
+[25/Oct/2024:11:47:26 +0000] SEARCH REQ conn=99 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:47:26 +0000] SEARCH RES conn=99 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:11:47:26 +0000] DISCONNECT conn=99 reason="Client Disconnect"
+[25/Oct/2024:11:47:57 +0000] CONNECT conn=100 from=127.0.0.1:43852 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:47:58 +0000] BIND REQ conn=100 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:47:58 +0000] BIND RES conn=100 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:11:47:58 +0000] SEARCH REQ conn=100 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:47:58 +0000] SEARCH RES conn=100 op=1 msgID=2 result=0 nentries=1 etime=10
+[25/Oct/2024:11:47:58 +0000] DISCONNECT conn=100 reason="Client Disconnect"
+[25/Oct/2024:11:48:29 +0000] CONNECT conn=101 from=127.0.0.1:35484 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:48:29 +0000] BIND REQ conn=101 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:48:29 +0000] BIND RES conn=101 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:48:29 +0000] SEARCH REQ conn=101 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:48:29 +0000] SEARCH RES conn=101 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:48:29 +0000] DISCONNECT conn=101 reason="Client Disconnect"
+[25/Oct/2024:11:49:00 +0000] CONNECT conn=102 from=127.0.0.1:46554 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:49:00 +0000] BIND REQ conn=102 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:49:00 +0000] BIND RES conn=102 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=1
+[25/Oct/2024:11:49:00 +0000] SEARCH REQ conn=102 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:49:00 +0000] SEARCH RES conn=102 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:49:00 +0000] DISCONNECT conn=102 reason="Client Disconnect"
+[25/Oct/2024:11:49:31 +0000] CONNECT conn=103 from=127.0.0.1:53038 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:49:32 +0000] BIND REQ conn=103 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:49:32 +0000] BIND RES conn=103 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:49:32 +0000] SEARCH REQ conn=103 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:49:32 +0000] SEARCH RES conn=103 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:49:32 +0000] DISCONNECT conn=103 reason="Client Disconnect"
+[25/Oct/2024:11:50:03 +0000] CONNECT conn=104 from=127.0.0.1:33940 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:50:03 +0000] BIND REQ conn=104 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:50:03 +0000] BIND RES conn=104 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=8
+[25/Oct/2024:11:50:03 +0000] SEARCH REQ conn=104 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:50:03 +0000] SEARCH RES conn=104 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:50:03 +0000] DISCONNECT conn=104 reason="Client Disconnect"
+[25/Oct/2024:11:50:34 +0000] CONNECT conn=105 from=127.0.0.1:37114 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:50:35 +0000] BIND REQ conn=105 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:50:35 +0000] BIND RES conn=105 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:50:35 +0000] SEARCH REQ conn=105 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:50:35 +0000] SEARCH RES conn=105 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:50:35 +0000] DISCONNECT conn=105 reason="Client Disconnect"
+[25/Oct/2024:11:51:06 +0000] CONNECT conn=106 from=127.0.0.1:51924 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:51:06 +0000] BIND REQ conn=106 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:51:06 +0000] BIND RES conn=106 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:51:06 +0000] SEARCH REQ conn=106 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:51:06 +0000] SEARCH RES conn=106 op=1 msgID=2 result=0 nentries=1 etime=10
+[25/Oct/2024:11:51:06 +0000] DISCONNECT conn=106 reason="Client Disconnect"
+[25/Oct/2024:11:51:37 +0000] CONNECT conn=107 from=127.0.0.1:51942 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:51:37 +0000] BIND REQ conn=107 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:51:37 +0000] BIND RES conn=107 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:51:37 +0000] SEARCH REQ conn=107 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:51:37 +0000] SEARCH RES conn=107 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:11:51:37 +0000] DISCONNECT conn=107 reason="Client Disconnect"
+[25/Oct/2024:11:52:08 +0000] CONNECT conn=108 from=127.0.0.1:43810 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:52:08 +0000] BIND REQ conn=108 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:52:08 +0000] BIND RES conn=108 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=7
+[25/Oct/2024:11:52:08 +0000] SEARCH REQ conn=108 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:52:08 +0000] SEARCH RES conn=108 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:52:08 +0000] DISCONNECT conn=108 reason="Client Disconnect"
+[25/Oct/2024:11:52:40 +0000] CONNECT conn=109 from=127.0.0.1:44578 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:52:40 +0000] BIND REQ conn=109 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:52:40 +0000] BIND RES conn=109 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:11:52:40 +0000] SEARCH REQ conn=109 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:52:40 +0000] SEARCH RES conn=109 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:11:52:40 +0000] DISCONNECT conn=109 reason="Client Disconnect"
+[25/Oct/2024:11:53:11 +0000] CONNECT conn=110 from=127.0.0.1:54782 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:53:11 +0000] BIND REQ conn=110 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:53:11 +0000] BIND RES conn=110 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:11:53:11 +0000] SEARCH REQ conn=110 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:53:11 +0000] SEARCH RES conn=110 op=1 msgID=2 result=0 nentries=1 etime=8
+[25/Oct/2024:11:53:11 +0000] DISCONNECT conn=110 reason="Client Disconnect"
+[25/Oct/2024:11:53:42 +0000] CONNECT conn=111 from=127.0.0.1:47296 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:53:42 +0000] BIND REQ conn=111 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:53:42 +0000] BIND RES conn=111 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:11:53:42 +0000] SEARCH REQ conn=111 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:53:42 +0000] SEARCH RES conn=111 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:53:42 +0000] DISCONNECT conn=111 reason="Client Disconnect"
+[25/Oct/2024:11:54:14 +0000] CONNECT conn=112 from=127.0.0.1:46654 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:54:14 +0000] BIND REQ conn=112 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:54:14 +0000] BIND RES conn=112 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:54:14 +0000] SEARCH REQ conn=112 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:54:14 +0000] SEARCH RES conn=112 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:11:54:14 +0000] DISCONNECT conn=112 reason="Client Disconnect"
+[25/Oct/2024:11:54:45 +0000] CONNECT conn=113 from=127.0.0.1:42938 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:54:45 +0000] BIND REQ conn=113 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:54:45 +0000] BIND RES conn=113 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:54:45 +0000] SEARCH REQ conn=113 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:54:45 +0000] SEARCH RES conn=113 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:54:45 +0000] DISCONNECT conn=113 reason="Client Disconnect"
+[25/Oct/2024:11:55:16 +0000] CONNECT conn=114 from=127.0.0.1:58870 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:55:16 +0000] BIND REQ conn=114 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:55:16 +0000] BIND RES conn=114 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:55:16 +0000] SEARCH REQ conn=114 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:55:16 +0000] SEARCH RES conn=114 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:55:16 +0000] DISCONNECT conn=114 reason="Client Disconnect"
+[25/Oct/2024:11:55:47 +0000] CONNECT conn=115 from=127.0.0.1:35746 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:55:47 +0000] BIND REQ conn=115 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:55:47 +0000] BIND RES conn=115 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:11:55:47 +0000] SEARCH REQ conn=115 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:55:47 +0000] SEARCH RES conn=115 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:11:55:47 +0000] DISCONNECT conn=115 reason="Client Disconnect"
+[25/Oct/2024:11:56:19 +0000] CONNECT conn=116 from=127.0.0.1:42860 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:56:19 +0000] BIND REQ conn=116 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:56:19 +0000] BIND RES conn=116 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:56:19 +0000] SEARCH REQ conn=116 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:56:19 +0000] SEARCH RES conn=116 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:11:56:19 +0000] DISCONNECT conn=116 reason="Client Disconnect"
+[25/Oct/2024:11:56:50 +0000] CONNECT conn=117 from=127.0.0.1:56614 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:56:50 +0000] BIND REQ conn=117 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:56:50 +0000] BIND RES conn=117 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:56:50 +0000] SEARCH REQ conn=117 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:56:50 +0000] SEARCH RES conn=117 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:11:56:50 +0000] DISCONNECT conn=117 reason="Client Disconnect"
+[25/Oct/2024:11:57:23 +0000] CONNECT conn=118 from=127.0.0.1:45140 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:57:23 +0000] BIND REQ conn=118 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:57:23 +0000] BIND RES conn=118 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:57:23 +0000] SEARCH REQ conn=118 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:57:23 +0000] SEARCH RES conn=118 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:11:57:23 +0000] DISCONNECT conn=118 reason="Client Disconnect"
+[25/Oct/2024:11:57:57 +0000] CONNECT conn=119 from=127.0.0.1:36142 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:57:57 +0000] BIND REQ conn=119 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:57:57 +0000] BIND RES conn=119 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:11:57:57 +0000] SEARCH REQ conn=119 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:57:57 +0000] SEARCH RES conn=119 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:11:57:57 +0000] DISCONNECT conn=119 reason="Client Disconnect"
+[25/Oct/2024:11:58:29 +0000] CONNECT conn=120 from=127.0.0.1:50772 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:58:29 +0000] BIND REQ conn=120 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:58:29 +0000] BIND RES conn=120 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:58:29 +0000] SEARCH REQ conn=120 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:58:29 +0000] SEARCH RES conn=120 op=1 msgID=2 result=0 nentries=1 etime=7
+[25/Oct/2024:11:58:29 +0000] DISCONNECT conn=120 reason="Client Disconnect"
+[25/Oct/2024:11:59:01 +0000] CONNECT conn=121 from=127.0.0.1:57500 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:59:01 +0000] BIND REQ conn=121 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:59:01 +0000] BIND RES conn=121 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:59:01 +0000] SEARCH REQ conn=121 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:59:01 +0000] SEARCH RES conn=121 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:11:59:01 +0000] DISCONNECT conn=121 reason="Client Disconnect"
+[25/Oct/2024:11:59:32 +0000] CONNECT conn=122 from=127.0.0.1:53620 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:11:59:32 +0000] BIND REQ conn=122 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:11:59:32 +0000] BIND RES conn=122 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:11:59:32 +0000] SEARCH REQ conn=122 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:11:59:32 +0000] SEARCH RES conn=122 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:11:59:32 +0000] DISCONNECT conn=122 reason="Client Disconnect"
+[25/Oct/2024:12:00:03 +0000] CONNECT conn=123 from=127.0.0.1:43996 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:00:04 +0000] BIND REQ conn=123 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:00:04 +0000] BIND RES conn=123 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:00:04 +0000] SEARCH REQ conn=123 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:00:04 +0000] SEARCH RES conn=123 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:00:04 +0000] DISCONNECT conn=123 reason="Client Disconnect"
+[25/Oct/2024:12:00:35 +0000] CONNECT conn=124 from=127.0.0.1:59564 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:00:35 +0000] BIND REQ conn=124 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:00:35 +0000] BIND RES conn=124 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:00:35 +0000] SEARCH REQ conn=124 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:00:35 +0000] SEARCH RES conn=124 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:00:35 +0000] DISCONNECT conn=124 reason="Client Disconnect"
+[25/Oct/2024:12:01:06 +0000] CONNECT conn=125 from=127.0.0.1:57420 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:01:06 +0000] BIND REQ conn=125 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:01:06 +0000] BIND RES conn=125 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:01:06 +0000] SEARCH REQ conn=125 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:01:06 +0000] SEARCH RES conn=125 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:12:01:06 +0000] DISCONNECT conn=125 reason="Client Disconnect"
+[25/Oct/2024:12:01:38 +0000] CONNECT conn=126 from=127.0.0.1:38396 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:01:38 +0000] BIND REQ conn=126 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:01:38 +0000] BIND RES conn=126 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:01:38 +0000] SEARCH REQ conn=126 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:01:38 +0000] SEARCH RES conn=126 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:01:38 +0000] DISCONNECT conn=126 reason="Client Disconnect"
+[25/Oct/2024:12:02:09 +0000] CONNECT conn=127 from=127.0.0.1:34114 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:02:10 +0000] BIND REQ conn=127 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:02:10 +0000] BIND RES conn=127 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:12:02:10 +0000] SEARCH REQ conn=127 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:02:10 +0000] SEARCH RES conn=127 op=1 msgID=2 result=0 nentries=1 etime=10
+[25/Oct/2024:12:02:10 +0000] DISCONNECT conn=127 reason="Client Disconnect"
+[25/Oct/2024:12:02:41 +0000] CONNECT conn=128 from=127.0.0.1:52662 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:02:41 +0000] BIND REQ conn=128 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:02:41 +0000] BIND RES conn=128 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:02:41 +0000] SEARCH REQ conn=128 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:02:41 +0000] SEARCH RES conn=128 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:02:41 +0000] DISCONNECT conn=128 reason="Client Disconnect"
+[25/Oct/2024:12:03:12 +0000] CONNECT conn=129 from=127.0.0.1:60666 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:03:13 +0000] BIND REQ conn=129 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:03:13 +0000] BIND RES conn=129 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:03:13 +0000] SEARCH REQ conn=129 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:03:13 +0000] SEARCH RES conn=129 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:12:03:13 +0000] DISCONNECT conn=129 reason="Client Disconnect"
+[25/Oct/2024:12:03:44 +0000] CONNECT conn=130 from=127.0.0.1:42524 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:03:44 +0000] BIND REQ conn=130 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:03:44 +0000] BIND RES conn=130 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:03:44 +0000] SEARCH REQ conn=130 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:03:44 +0000] SEARCH RES conn=130 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:12:03:44 +0000] DISCONNECT conn=130 reason="Client Disconnect"
+[25/Oct/2024:12:04:15 +0000] CONNECT conn=131 from=127.0.0.1:42574 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:04:15 +0000] BIND REQ conn=131 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:04:15 +0000] BIND RES conn=131 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:04:15 +0000] SEARCH REQ conn=131 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:04:15 +0000] SEARCH RES conn=131 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:04:15 +0000] DISCONNECT conn=131 reason="Client Disconnect"
+[25/Oct/2024:12:04:46 +0000] CONNECT conn=132 from=127.0.0.1:38624 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:04:46 +0000] BIND REQ conn=132 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:04:46 +0000] BIND RES conn=132 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:04:46 +0000] SEARCH REQ conn=132 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:04:46 +0000] SEARCH RES conn=132 op=1 msgID=2 result=0 nentries=1 etime=1
+[25/Oct/2024:12:04:46 +0000] DISCONNECT conn=132 reason="Client Disconnect"
+[25/Oct/2024:12:05:18 +0000] CONNECT conn=133 from=127.0.0.1:44162 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:05:18 +0000] BIND REQ conn=133 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:05:18 +0000] BIND RES conn=133 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:05:18 +0000] SEARCH REQ conn=133 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:05:18 +0000] SEARCH RES conn=133 op=1 msgID=2 result=0 nentries=1 etime=7
+[25/Oct/2024:12:05:18 +0000] DISCONNECT conn=133 reason="Client Disconnect"
+[25/Oct/2024:12:05:50 +0000] CONNECT conn=134 from=127.0.0.1:45614 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:05:50 +0000] BIND REQ conn=134 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:05:50 +0000] BIND RES conn=134 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=8
+[25/Oct/2024:12:05:50 +0000] SEARCH REQ conn=134 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:05:50 +0000] SEARCH RES conn=134 op=1 msgID=2 result=0 nentries=1 etime=26
+[25/Oct/2024:12:05:50 +0000] DISCONNECT conn=134 reason="Client Disconnect"
+[25/Oct/2024:12:06:21 +0000] CONNECT conn=135 from=127.0.0.1:44012 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:06:22 +0000] BIND REQ conn=135 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:06:22 +0000] BIND RES conn=135 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:12:06:22 +0000] SEARCH REQ conn=135 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:06:22 +0000] SEARCH RES conn=135 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:12:06:22 +0000] DISCONNECT conn=135 reason="Client Disconnect"
+[25/Oct/2024:12:06:53 +0000] CONNECT conn=136 from=127.0.0.1:48968 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:06:53 +0000] BIND REQ conn=136 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:06:53 +0000] BIND RES conn=136 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:12:06:53 +0000] SEARCH REQ conn=136 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:06:53 +0000] SEARCH RES conn=136 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:12:06:53 +0000] DISCONNECT conn=136 reason="Client Disconnect"
+[25/Oct/2024:12:07:24 +0000] CONNECT conn=137 from=127.0.0.1:51230 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:07:24 +0000] BIND REQ conn=137 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:07:24 +0000] BIND RES conn=137 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:07:24 +0000] SEARCH REQ conn=137 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:07:24 +0000] SEARCH RES conn=137 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:12:07:24 +0000] DISCONNECT conn=137 reason="Client Disconnect"
+[25/Oct/2024:12:07:55 +0000] CONNECT conn=138 from=127.0.0.1:55696 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:07:55 +0000] BIND REQ conn=138 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:07:55 +0000] BIND RES conn=138 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:07:55 +0000] SEARCH REQ conn=138 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:07:55 +0000] SEARCH RES conn=138 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:12:07:56 +0000] DISCONNECT conn=138 reason="Client Disconnect"
+[25/Oct/2024:12:08:26 +0000] CONNECT conn=139 from=127.0.0.1:40296 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:08:27 +0000] BIND REQ conn=139 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:08:27 +0000] BIND RES conn=139 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=7
+[25/Oct/2024:12:08:27 +0000] SEARCH REQ conn=139 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:08:27 +0000] SEARCH RES conn=139 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:12:08:27 +0000] DISCONNECT conn=139 reason="Client Disconnect"
+[25/Oct/2024:12:08:58 +0000] CONNECT conn=140 from=127.0.0.1:34952 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:08:58 +0000] BIND REQ conn=140 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:08:58 +0000] BIND RES conn=140 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:08:58 +0000] SEARCH REQ conn=140 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:08:58 +0000] SEARCH RES conn=140 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:12:08:58 +0000] DISCONNECT conn=140 reason="Client Disconnect"
+[25/Oct/2024:12:09:29 +0000] CONNECT conn=141 from=127.0.0.1:34024 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:09:29 +0000] BIND REQ conn=141 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:09:29 +0000] BIND RES conn=141 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:09:29 +0000] SEARCH REQ conn=141 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:09:29 +0000] SEARCH RES conn=141 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:09:29 +0000] DISCONNECT conn=141 reason="Client Disconnect"
+[25/Oct/2024:12:10:02 +0000] CONNECT conn=142 from=127.0.0.1:36898 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:10:02 +0000] BIND REQ conn=142 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:10:02 +0000] BIND RES conn=142 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=21
+[25/Oct/2024:12:10:02 +0000] SEARCH REQ conn=142 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:10:02 +0000] SEARCH RES conn=142 op=1 msgID=2 result=0 nentries=1 etime=15
+[25/Oct/2024:12:10:02 +0000] DISCONNECT conn=142 reason="Client Disconnect"
+[25/Oct/2024:12:10:34 +0000] CONNECT conn=143 from=127.0.0.1:51060 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:10:35 +0000] BIND REQ conn=143 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:10:35 +0000] BIND RES conn=143 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:12:10:35 +0000] SEARCH REQ conn=143 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:10:35 +0000] SEARCH RES conn=143 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:12:10:35 +0000] DISCONNECT conn=143 reason="Client Disconnect"
+[25/Oct/2024:12:11:06 +0000] CONNECT conn=144 from=127.0.0.1:38740 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:11:06 +0000] BIND REQ conn=144 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:11:06 +0000] BIND RES conn=144 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:11:06 +0000] SEARCH REQ conn=144 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:11:06 +0000] SEARCH RES conn=144 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:12:11:06 +0000] DISCONNECT conn=144 reason="Client Disconnect"
+[25/Oct/2024:12:11:37 +0000] CONNECT conn=145 from=127.0.0.1:36482 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:11:37 +0000] BIND REQ conn=145 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:11:37 +0000] BIND RES conn=145 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:12:11:37 +0000] SEARCH REQ conn=145 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:11:37 +0000] SEARCH RES conn=145 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:11:37 +0000] DISCONNECT conn=145 reason="Client Disconnect"
+[25/Oct/2024:12:12:09 +0000] CONNECT conn=146 from=127.0.0.1:36982 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:12:09 +0000] BIND REQ conn=146 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:12:09 +0000] BIND RES conn=146 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:12:09 +0000] SEARCH REQ conn=146 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:12:09 +0000] SEARCH RES conn=146 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:12:09 +0000] DISCONNECT conn=146 reason="Client Disconnect"
+[25/Oct/2024:12:12:40 +0000] CONNECT conn=147 from=127.0.0.1:58610 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:12:40 +0000] BIND REQ conn=147 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:12:40 +0000] BIND RES conn=147 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:12:40 +0000] SEARCH REQ conn=147 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:12:40 +0000] SEARCH RES conn=147 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:12:12:40 +0000] DISCONNECT conn=147 reason="Client Disconnect"
+[25/Oct/2024:12:13:11 +0000] CONNECT conn=148 from=127.0.0.1:37890 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:13:11 +0000] BIND REQ conn=148 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:13:12 +0000] BIND RES conn=148 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:13:12 +0000] SEARCH REQ conn=148 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:13:12 +0000] SEARCH RES conn=148 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:12:13:12 +0000] DISCONNECT conn=148 reason="Client Disconnect"
+[25/Oct/2024:12:13:43 +0000] CONNECT conn=149 from=127.0.0.1:41960 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:13:43 +0000] BIND REQ conn=149 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:13:43 +0000] BIND RES conn=149 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:12:13:43 +0000] SEARCH REQ conn=149 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:13:43 +0000] SEARCH RES conn=149 op=1 msgID=2 result=0 nentries=1 etime=8
+[25/Oct/2024:12:13:43 +0000] DISCONNECT conn=149 reason="Client Disconnect"
+[25/Oct/2024:12:14:14 +0000] CONNECT conn=150 from=127.0.0.1:43436 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:14:14 +0000] BIND REQ conn=150 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:14:14 +0000] BIND RES conn=150 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:12:14:14 +0000] SEARCH REQ conn=150 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:14:14 +0000] SEARCH RES conn=150 op=1 msgID=2 result=0 nentries=1 etime=5
+[25/Oct/2024:12:14:15 +0000] DISCONNECT conn=150 reason="Client Disconnect"
+[25/Oct/2024:12:14:46 +0000] CONNECT conn=151 from=127.0.0.1:49882 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:14:46 +0000] BIND REQ conn=151 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:14:46 +0000] BIND RES conn=151 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:14:46 +0000] SEARCH REQ conn=151 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:14:46 +0000] SEARCH RES conn=151 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:14:46 +0000] DISCONNECT conn=151 reason="Client Disconnect"
+[25/Oct/2024:12:15:18 +0000] CONNECT conn=152 from=127.0.0.1:49918 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:15:18 +0000] BIND REQ conn=152 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:15:18 +0000] BIND RES conn=152 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:15:18 +0000] SEARCH REQ conn=152 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:15:18 +0000] SEARCH RES conn=152 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:15:18 +0000] DISCONNECT conn=152 reason="Client Disconnect"
+[25/Oct/2024:12:15:49 +0000] CONNECT conn=153 from=127.0.0.1:37574 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:15:49 +0000] BIND REQ conn=153 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:15:49 +0000] BIND RES conn=153 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=18
+[25/Oct/2024:12:15:49 +0000] SEARCH REQ conn=153 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:15:49 +0000] SEARCH RES conn=153 op=1 msgID=2 result=0 nentries=1 etime=11
+[25/Oct/2024:12:15:49 +0000] DISCONNECT conn=153 reason="Client Disconnect"
+[25/Oct/2024:12:16:20 +0000] CONNECT conn=154 from=127.0.0.1:57662 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:16:21 +0000] BIND REQ conn=154 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:16:21 +0000] BIND RES conn=154 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:16:21 +0000] SEARCH REQ conn=154 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:16:21 +0000] SEARCH RES conn=154 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:16:21 +0000] DISCONNECT conn=154 reason="Client Disconnect"
+[25/Oct/2024:12:16:52 +0000] CONNECT conn=155 from=127.0.0.1:48792 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:16:52 +0000] BIND REQ conn=155 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:16:52 +0000] BIND RES conn=155 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:16:52 +0000] SEARCH REQ conn=155 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:16:52 +0000] SEARCH RES conn=155 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:12:16:52 +0000] DISCONNECT conn=155 reason="Client Disconnect"
+[25/Oct/2024:12:17:24 +0000] CONNECT conn=156 from=127.0.0.1:37582 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:17:24 +0000] BIND REQ conn=156 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:17:24 +0000] BIND RES conn=156 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=4
+[25/Oct/2024:12:17:24 +0000] SEARCH REQ conn=156 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:17:24 +0000] SEARCH RES conn=156 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:17:24 +0000] DISCONNECT conn=156 reason="Client Disconnect"
+[25/Oct/2024:12:17:56 +0000] CONNECT conn=157 from=127.0.0.1:35068 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:17:56 +0000] BIND REQ conn=157 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:17:56 +0000] BIND RES conn=157 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:12:17:56 +0000] SEARCH REQ conn=157 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:17:56 +0000] SEARCH RES conn=157 op=1 msgID=2 result=0 nentries=1 etime=9
+[25/Oct/2024:12:17:56 +0000] DISCONNECT conn=157 reason="Client Disconnect"
+[25/Oct/2024:12:18:28 +0000] CONNECT conn=158 from=127.0.0.1:43424 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:18:28 +0000] BIND REQ conn=158 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:18:28 +0000] BIND RES conn=158 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:18:28 +0000] SEARCH REQ conn=158 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:18:28 +0000] SEARCH RES conn=158 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:18:28 +0000] DISCONNECT conn=158 reason="Client Disconnect"
+[25/Oct/2024:12:18:59 +0000] CONNECT conn=159 from=127.0.0.1:34092 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:18:59 +0000] BIND REQ conn=159 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:18:59 +0000] BIND RES conn=159 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:18:59 +0000] SEARCH REQ conn=159 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:18:59 +0000] SEARCH RES conn=159 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:18:59 +0000] DISCONNECT conn=159 reason="Client Disconnect"
+[25/Oct/2024:12:19:31 +0000] CONNECT conn=160 from=127.0.0.1:58348 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:19:31 +0000] BIND REQ conn=160 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:19:31 +0000] BIND RES conn=160 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=33
+[25/Oct/2024:12:19:31 +0000] SEARCH REQ conn=160 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:19:31 +0000] SEARCH RES conn=160 op=1 msgID=2 result=0 nentries=1 etime=18
+[25/Oct/2024:12:19:31 +0000] DISCONNECT conn=160 reason="Client Disconnect"
+[25/Oct/2024:12:20:03 +0000] CONNECT conn=161 from=127.0.0.1:48898 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:20:03 +0000] BIND REQ conn=161 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:20:03 +0000] BIND RES conn=161 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=2
+[25/Oct/2024:12:20:03 +0000] SEARCH REQ conn=161 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:20:03 +0000] SEARCH RES conn=161 op=1 msgID=2 result=0 nentries=1 etime=2
+[25/Oct/2024:12:20:03 +0000] DISCONNECT conn=161 reason="Client Disconnect"
+[25/Oct/2024:12:20:35 +0000] CONNECT conn=162 from=127.0.0.1:40356 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:20:35 +0000] BIND REQ conn=162 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:20:35 +0000] BIND RES conn=162 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=3
+[25/Oct/2024:12:20:35 +0000] SEARCH REQ conn=162 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:20:35 +0000] SEARCH RES conn=162 op=1 msgID=2 result=0 nentries=1 etime=8
+[25/Oct/2024:12:20:35 +0000] DISCONNECT conn=162 reason="Client Disconnect"
+[25/Oct/2024:12:21:08 +0000] CONNECT conn=163 from=127.0.0.1:47802 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:21:08 +0000] BIND REQ conn=163 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:21:08 +0000] BIND RES conn=163 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:12:21:08 +0000] SEARCH REQ conn=163 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:21:08 +0000] SEARCH RES conn=163 op=1 msgID=2 result=0 nentries=1 etime=12
+[25/Oct/2024:12:21:08 +0000] DISCONNECT conn=163 reason="Client Disconnect"
+[25/Oct/2024:12:22:45 +0000] CONNECT conn=0 from=127.0.0.1:38706 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:22:45 +0000] BIND REQ conn=0 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:22:45 +0000] BIND RES conn=0 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=17
+[25/Oct/2024:12:22:45 +0000] SEARCH REQ conn=0 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:22:45 +0000] SEARCH RES conn=0 op=1 msgID=2 result=0 nentries=1 etime=21
+[25/Oct/2024:12:22:45 +0000] DISCONNECT conn=0 reason="Client Disconnect"
+[25/Oct/2024:12:23:17 +0000] CONNECT conn=1 from=127.0.0.1:43888 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:23:17 +0000] BIND REQ conn=1 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:23:17 +0000] BIND RES conn=1 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=12
+[25/Oct/2024:12:23:17 +0000] SEARCH REQ conn=1 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:23:17 +0000] SEARCH RES conn=1 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:12:23:17 +0000] DISCONNECT conn=1 reason="Client Disconnect"
+[25/Oct/2024:12:23:50 +0000] CONNECT conn=2 from=127.0.0.1:50428 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:23:50 +0000] BIND REQ conn=2 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:23:50 +0000] BIND RES conn=2 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=19
+[25/Oct/2024:12:23:50 +0000] SEARCH REQ conn=2 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:23:50 +0000] SEARCH RES conn=2 op=1 msgID=2 result=0 nentries=1 etime=14
+[25/Oct/2024:12:23:50 +0000] DISCONNECT conn=2 reason="Client Disconnect"
+[25/Oct/2024:12:24:21 +0000] CONNECT conn=3 from=127.0.0.1:42354 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:24:22 +0000] BIND REQ conn=3 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:24:22 +0000] BIND RES conn=3 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=10
+[25/Oct/2024:12:24:22 +0000] SEARCH REQ conn=3 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:24:22 +0000] SEARCH RES conn=3 op=1 msgID=2 result=0 nentries=1 etime=14
+[25/Oct/2024:12:24:22 +0000] DISCONNECT conn=3 reason="Client Disconnect"
+[25/Oct/2024:12:24:55 +0000] CONNECT conn=4 from=127.0.0.1:56686 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:24:55 +0000] BIND REQ conn=4 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:24:55 +0000] BIND RES conn=4 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=5
+[25/Oct/2024:12:24:55 +0000] SEARCH REQ conn=4 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:24:55 +0000] SEARCH RES conn=4 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:12:24:55 +0000] DISCONNECT conn=4 reason="Client Disconnect"
+[25/Oct/2024:12:25:27 +0000] CONNECT conn=5 from=127.0.0.1:41848 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:25:27 +0000] BIND REQ conn=5 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:25:28 +0000] BIND RES conn=5 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=9
+[25/Oct/2024:12:25:28 +0000] SEARCH REQ conn=5 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:25:28 +0000] SEARCH RES conn=5 op=1 msgID=2 result=0 nentries=1 etime=6
+[25/Oct/2024:12:25:28 +0000] DISCONNECT conn=5 reason="Client Disconnect"
+[25/Oct/2024:12:25:59 +0000] CONNECT conn=6 from=127.0.0.1:42186 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:25:59 +0000] BIND REQ conn=6 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:25:59 +0000] BIND RES conn=6 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=6
+[25/Oct/2024:12:25:59 +0000] SEARCH REQ conn=6 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:25:59 +0000] SEARCH RES conn=6 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:12:25:59 +0000] DISCONNECT conn=6 reason="Client Disconnect"
+[25/Oct/2024:12:26:31 +0000] CONNECT conn=7 from=127.0.0.1:55024 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:26:31 +0000] BIND REQ conn=7 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:26:31 +0000] BIND RES conn=7 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=10
+[25/Oct/2024:12:26:31 +0000] SEARCH REQ conn=7 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:26:31 +0000] SEARCH RES conn=7 op=1 msgID=2 result=0 nentries=1 etime=3
+[25/Oct/2024:12:26:31 +0000] DISCONNECT conn=7 reason="Client Disconnect"
+[25/Oct/2024:12:27:02 +0000] CONNECT conn=8 from=127.0.0.1:33738 to=127.0.0.1:1636 protocol=LDAPS
+[25/Oct/2024:12:27:03 +0000] BIND REQ conn=8 op=0 msgID=1 version=3 type=SIMPLE dn="uid=acmaadmin"
+[25/Oct/2024:12:27:03 +0000] BIND RES conn=8 op=0 msgID=1 result=0 authDN="cn=Directory Manager,cn=Root DNs,cn=config" etime=11
+[25/Oct/2024:12:27:03 +0000] SEARCH REQ conn=8 op=1 msgID=2 base="dc=acma,dc=com" scope=base filter="(objectClass=*)" attrs="1.1"
+[25/Oct/2024:12:27:03 +0000] SEARCH RES conn=8 op=1 msgID=2 result=0 nentries=1 etime=4
+[25/Oct/2024:12:27:03 +0000] DISCONNECT conn=8 reason="Client Disconnect"
