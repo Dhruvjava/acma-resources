@@ -12,7 +12,7 @@ services:
     networks:
       - acma-iam-network
     volumes:
-      - D:/Projects/acma-resources/keycloak-docker-compose/acma-workforce-db:/var/lib/mysql
+      - /Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/resource/acma-resources/keycloak-docker-compose/acma-workforce-db:/var/lib/mysql
 
   acma-iam-fed-service:
     container_name: acma-customer-ldap
@@ -29,7 +29,7 @@ services:
     networks:
       - acma-iam-network
     volumes:
-      - D:/Projects/acma-resources/keycloak-docker-compose/acma-ldap-db:/opt/opendj/data
+      - /Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/resource/acma-resources/keycloak-docker-compose/acma-ldap-db:/opt/opendj/data
 
   acma-iam-keycloak-service:
     container_name: acma-iam-keycloak
@@ -47,26 +47,45 @@ services:
       - KC_DB_PASSWORD=admin
       - KC_HEALTH_ENABLED=true
       - KC_METRICS_ENABLED=true
-      # - KC_HOSTNAME_STRICT_HTTPS=false
-      # - KC_HTTP_ENABLED=true
-      # - KC_HOSTNAME_STRICT_BACKCHANNEL=false
-      # - KC_HOSTNAME_PORT=8080
-      # - KC_HOSTNAME=localhost
     depends_on:
       - acma-iam-config-service
       - acma-iam-fed-service
     networks:
       - acma-iam-network
-  acma-user-mgmt-svc:
+  acma-user-mgmt-service:
     container_name: user-mgmt-svc
-    build: D:/Projects/ACMA/acma-usermgmt-svc
+    build: '/Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/source-code/agent-customer-market-analyzer/acma-usermgmt-svc'
     ports:
       - 5051:5051
     environment:
       - IAM_USERS_HOST=acma-iam-keycloak-service
-      - IAM_USERS_PORT=8081
+      - IAM_USERS_PORT=8080
+      - IAM_PROTOCOL=http
+      - IAM_REALMS=acma
     depends_on:
       - acma-iam-keycloak-service
+    networks:
+      - acma-iam-network
+  acma-redis-stack-service:
+    image: redis/redis-stack:latest
+    container_name: acma-redis-stack
+    restart: on-failure
+    environment:
+#      REDIS_ARGS: "--requirepass root"
+      REDIS_ARGS: "--requirepass admin --user admin on >admin ~* allcommands --user default off nopass nocommands"
+    volumes:
+      - ./keycloak-docker-compose/redis-cache:/data
+    ports:
+      - 6379:6379
+      - 8001:8001
+    networks:
+      - acma-iam-network
+  acma-cache-client-service:
+    image: redis/redisinsight:latest
+    container_name: acma-cache-client
+    restart: on-failure
+    ports:
+      - 5539:5540
     networks:
       - acma-iam-network
 
