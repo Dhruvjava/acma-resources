@@ -36,6 +36,12 @@ services:
     image: quay.io/keycloak/keycloak:latest
     command: start-dev
     restart: always
+    healthcheck:
+      test: "curl --fail --silent localhost:8761/actuator/health/readiness | grep UP || exit 0"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
     ports:
       - 8081:8080
     environment:
@@ -52,20 +58,59 @@ services:
       - acma-iam-fed-service
     networks:
       - acma-iam-network
-  acma-user-mgmt-service:
-    container_name: user-mgmt-svc
-    build: '/Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/source-code/agent-customer-market-analyzer/acma-usermgmt-svc'
+  acma-authnz-service:
+    container_name: acma-authnz-svc
+    build: '/Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/source-code/agent-customer-market-analyzer/acma-authnz-svc'
     ports:
-      - 5051:5051
+      - 5052:5052
     environment:
       - IAM_USERS_HOST=acma-iam-keycloak-service
       - IAM_USERS_PORT=8080
       - IAM_PROTOCOL=http
       - IAM_REALMS=acma
+      - ACMA_IDP=keycloak
+      - ACMA_IDP_CLIENT_ID=statefarm-code-svc
+      - ACMA_IDP_CLIENT_SECRET=QhIRv6jNrcX2KhR6Ewcij3oB08BJsTcE
+      - ACMA_IODC__GRANT_TYPE=authorization_code
+      - IAM_PROTOCOL=http
+      - IAM_HOST=acma-iam-keycloak
+      - IAM_PORT=8080
+      - IAM_REALMS=acma
+      - ACMA_CACHE_HOST=acma-redis-stack
+      - ACMA_CACHE_PORT=6379
+      - ACMA_CACHE_PASSWORD=admin
+      - ACMA_CACHE_USERNAME=admin
+      - ACMA_REGISTRY_PROTOCOL=http
+      - ACMA_REGISTRY_HOSTNAME=acma-registry-server
+      - ACMA_REGISTRY_PORT=8761
+      - ACMA_AUTHNZ_PORT=5052
+      - ACMA_AUTHNZ_PROFILE=dev
     depends_on:
-      - acma-iam-keycloak-service
+      acma-iam-keycloak-service:
+        condition: service_healthy
+      acma-registry-server-svc:
+        condition: service_healthy
     networks:
       - acma-iam-network
+#      - acma-shared-network
+
+  acma-registry-server-svc:
+    container_name: acma-registry-server
+    build: '/Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/source-code/agent-customer-market-analyzer/acma-registry-svr'
+    ports:
+      - 8761:8761
+    environment:
+      - ACMA-REGISTRY_PORT=8761
+    healthcheck:
+      test: "curl --fail --silent http://acma-registry-server:8761/actuator/health/readiness | grep UP || exit 0"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    networks:
+      - acma-iam-network
+#      - acma-shared-network
+
   acma-redis-stack-service:
     image: redis/redis-stack:latest
     container_name: acma-redis-stack
@@ -80,6 +125,7 @@ services:
       - 8001:8001
     networks:
       - acma-iam-network
+#      - acma-shared-network
   acma-cache-client-service:
     image: redis/redisinsight:latest
     container_name: acma-cache-client
@@ -92,3 +138,5 @@ services:
 networks:
   acma-iam-network:
     driver: bridge
+#  acma-shared-network:
+#    external: true

@@ -1,0 +1,43 @@
+version: '3.8'
+services:
+  acma-gateway-server:
+    container_name: acma-gateway-server
+    build: '/Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/source-code/agent-customer-market-analyzer/acma-gateway-svr'
+    ports:
+      - 80:80
+    environment:
+      - ACMA_IAM_PROTOCOL=http
+      - ACMA_IAM_HOST=acma-iam-keycloak
+      - ACMA_IAM_PORT=8080
+      - ACMA_IAM_REALMS=acma
+      - ACMA_GATEWAY_REDIS_HOST=acma-redis-stack
+      - ACMA_GATEWAY_REDIS_PORT=6379
+      - ACMA_GATEWAY_REDIS_USERNAME=admin
+      - ACMA_GATEWAY_REDIS_PASSWORD=admin
+      - ACMA-REGISTRY_PROTOCOL=http
+      - ACMA_REGISTRY_HOST=acma-registry-server
+      - ACMA_REGISTRY_PORT=8761
+    networks:
+      - acma-infra-network
+      - acma-iam-network
+
+
+  acma-user-mgmt-service:
+    container_name: user-mgmt-svc
+    build: '/Users/dhruvkumar/Documents/Documents - Dhruv’s MacBook Air/Narsi_jrtp/ACMA/source-code/agent-customer-market-analyzer/acma-usermgmt-svc'
+    ports:
+      - 5051:5051
+    environment:
+      - IAM_USERS_HOST=acma-iam-keycloak-service
+      - IAM_USERS_PORT=8080
+      - IAM_PROTOCOL=http
+      - IAM_REALMS=acma
+    networks:
+      - acma-infra-network
+      - acma-iam-network
+
+networks:
+  acma-infra-network:
+    driver: bridge
+  acma-shared-network:
+    external: true
